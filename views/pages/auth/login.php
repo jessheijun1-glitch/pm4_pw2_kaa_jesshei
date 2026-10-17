@@ -1,12 +1,17 @@
-<h1>Login</h1>
-<form method="POST">
-<label>Username</label>
-<input type="text" name="username">
-<br><br>
-<label>Password</label>
-<input type="password" name="password">
-<br><br>
-<button type="submit">
-Login
-</button>
+<h2>Login</h2>
+<?php if (!empty($error)): ?>
+    <p><?= htmlspecialchars($error) ?></p>
+<?php endif; ?>
+<form action="/login" method="POST">
+    <div>
+        <label>Username</label>
+        <input type="text" name="username" required>
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input type="password" name="password" required>
+    </div>
+
+    <button type="submit">Login</button>
 </form>
