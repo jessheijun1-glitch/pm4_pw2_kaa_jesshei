@@ -4,7 +4,10 @@ body {
     padding: 20px;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     margin-bottom: 20px;
 }
 
@@ -15,3 +18,4 @@ nav a {
 footer {
     border-top: 1px solid #ccc;
     padding-top: 10px;
+}

@@ -85,12 +85,12 @@
 
     <table>
         <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nama Produk</th>
-            <th>Harga</th>
-            <th>Stok</th>
-        </tr>
+            <tr>
+                <th>ID</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Stok</th>
+            </tr>
         </thead>
 
         <tbody>
